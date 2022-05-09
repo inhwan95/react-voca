@@ -1,7 +1,7 @@
 import dummy from "../db/data.json";
 
 export default function Day() {
-  const day = 3;
+  const day = 1;
   const wordList = dummy.words.filter(word => (
     word.day === day
   ));
