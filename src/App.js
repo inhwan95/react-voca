@@ -10,7 +10,7 @@ function App() {
         <Header />
         <Routes>
 
-          <Route path="/">
+          <Route exact path="/">
             <DayList />
           </Route>
           <Route path="/day">

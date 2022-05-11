@@ -8,6 +8,7 @@ export default function Day() {
   console.log(wordList);
 
   return <>
+    <h2>Day {day}</h2>
     <table>
       <tbody>
         {wordList.map(word => (
